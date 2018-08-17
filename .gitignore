@@ -1,0 +1,7 @@
+# Ignore temporary files
+*~
+# Ignore output files
+*.tmp
+*.out
+# Ignore swap files
+*.swp
