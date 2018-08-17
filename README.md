@@ -20,25 +20,26 @@ CustomEmailsV2 is similar to CustomEmails except that is written in Bash. It use
         * AMOUNT - owe amount
         * DATE - date the payment must be received. (passed as a parameter to customEmails.pl)
     * Sample:
-        MAIL FROM:<bill.king@croc.com>
-        RCPT TO:<EMAIL>
-        DATA
-        From: "Bill King" <bill.king@croc.com>
-        To: "FULLNAME" <EMAIL>
-        Subject: Payment is Due
+          
+          MAIL FROM:<bill.king@croc.com>
+          RCPT TO:<EMAIL>
+          DATA
+          From: "Bill King" <bill.king@croc.com>
+          To: "FULLNAME" <EMAIL>
+          Subject: Payment is Due
 
-        Dear TITLE NAME,
-        We appreciate your business with Completely Reliable Outlet Corp.  You 
-        would be an even more valued customer if you will pay us $AMOUNT.  If 
-        you don't pay us by DATE, we will double the amount you owe us. 
+          Dear TITLE NAME,
+          We appreciate your business with Completely Reliable Outlet Corp.  You 
+          would be an even more valued customer if you will pay us $AMOUNT.  If 
+          you don't pay us by DATE, we will double the amount you owe us. 
 
-        If you have any questions regarding your account, please contact
-        me at 222-555-1234.
+          If you have any questions regarding your account, please contact
+          me at 222-555-1234.
 
-        Bill King
-        Collections Manager
-        . 
-
+          Bill King
+          Collections Manager
+          .
+          
 ## Installation
 Clone the repository wherever you like (e.g. `~/Projects/CustomEmailsV2`):
 ```bash
