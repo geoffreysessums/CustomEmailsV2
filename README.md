@@ -4,6 +4,12 @@
 
 CustomEmailsV2 produces output files in SMTP format suitable for sending personalized emails to customers with a balance on their accounts. Generated source files are prefixed with a "g". Also, generated emails are placed in a subordinate directory named "Emails". If that directory already exists, then all of its contents are removed; otherwise, the directory is created. 
 
+## What I Learned
+
+* How to use BASH to generate directories and files
+* How to use AWK to for pattern matching and file processing
+* How to use SED to transform email templates into email files suitable for personalized emails
+
 ## Testing
 
 Several files are included for testing:  
