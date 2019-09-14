@@ -1,8 +1,13 @@
 # CustomEmailsV2
-## Description: 
-CustomEmailsV2 is similar to CustomEmails except that is written in Bash. It uses AWK and SED (stream editor) to produce email files suitable for sending personalized emails **only** to customers with an **owe amount** greater than **paid amount**. Generated source files are prefixed with a "g". Also, generated emails are placed in a subordinate directory named "Emails". If that directory already exists, then all of its contents are removed; otherwise, the directory is created. 
 
-### Several files are included for testing:
+## Description
+
+CustomEmailsV2 produces output files in SMTP format suitable for sending personalized emails to customers with a balance on their accounts. Generated source files are prefixed with a "g". Also, generated emails are placed in a subordinate directory named "Emails". If that directory already exists, then all of its contents are removed; otherwise, the directory is created. 
+
+## Testing
+
+Several files are included for testing:  
+
 * customer.txt
     * File containing sample input containing one customer per line
     * Each customer line contains:
@@ -41,24 +46,23 @@ CustomEmailsV2 is similar to CustomEmails except that is written in Bash. It use
           .
           
 ## Installation
-Clone the repository wherever you like (e.g. `~/Projects/CustomEmailsV2`):
-```bash
-git clone https://github.com/gsessums/CustomEmailsV2.git
-```
+
+Clone the repository wherever you like (e.g. `~/Projects/CustomEmailsV2`):  
+`git clone https://github.com/gsessums/CustomEmailsV2.git`
 
 ## Usage
+
 To execute enter the following command with date (payment deadline), then follow the on screen prompts.
-```bash
-./customEmailsV2.pl mm/dd/yyyy 
-```
+`./customEmailsV2.pl mm/dd/yyyy`  
 
 ## Credits
-Author: [Geoffrey Sessums](http://www.geoffreysessums.com)
+
+Author: Geoffrey Sessums
 
 ## License
 MIT License
 
-Copyright (c) 2018 Geoffrey Sessums
+Copyright (c) 2017 Geoffrey Sessums
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
