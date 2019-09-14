@@ -1,5 +1,9 @@
 # CustomEmailsV2
 
+Geoffrey Sessums  
+CS 3424 Systems Programming - Fall 2017  
+Language(s): BASH, AWK, SED  
+
 ## Description
 
 CustomEmailsV2 produces output files in SMTP format suitable for sending personalized emails to customers with a balance on their accounts. Generated source files are prefixed with a "g". Also, generated emails are placed in a subordinate directory named "Emails". If that directory already exists, then all of its contents are removed; otherwise, the directory is created. 
